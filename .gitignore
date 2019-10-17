@@ -1,0 +1,7 @@
+venv/
+target/
+.mvn/
+!**/maven-wrapper.jar
+.idea/
+*.iml
+.DS_Store

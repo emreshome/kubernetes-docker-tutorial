@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod                                            # 1
+metadata:
+  name: frontend                                     # 2
+  labels:
+    app: fe
+spec:                                                # 3
+  containers:
+    - image: emreshome/k8-demo-fe                    # 4
+      name: frontend                                 # 5
+      ports:
+        - containerPort: 8080                          # 6
